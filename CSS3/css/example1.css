@@ -1,0 +1,70 @@
+html
+{
+    font-size: 20px;
+}
+
+.contain
+{
+    position: relative;
+    width: 20rem;
+    height: 10rem;
+    margin: 10% auto;
+    padding: 0;
+}
+
+.contain span
+{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    padding: 2%;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: color 2s;
+    -webkit-transition: color 2s;
+    -moz-transition: color 2s;
+    -o-transition: color 2s;
+}
+
+.contain button
+{
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    padding: 3px 10px;
+    outline: none;
+    transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    border-radius: .5rem;
+    border: 1px solid #cfcfcf;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+.contain .placeholder
+{
+    width: 1px;
+    height: 1px;
+}
+
+.contain .underline
+{
+    width:0;
+    height: 3px;
+    padding: 0;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #4469e7;
+    transition: width 2s;
+    -webkit-transition: width 2s;
+    -moz-transition: width 2s;
+    -o-transition: width 2s;
+}
